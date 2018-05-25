@@ -1,0 +1,21 @@
+Package: raking2018
+Title: Raking Algorithm for Weighting Survey Data
+Version: 0.0.0.9000
+Authors@R: person("Xin", "Yang", email = "yang4055@umn.com", role = c("aut", "cre"))
+Description: A set of functions for preprocess individual survey data, get the census constrain data and apply raking algorithm to get weights
+Depends: R (>= 3.3.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+	dplyr (>= 0.5.0),
+	shiny (>= 1.0.0),
+	DT (>= 0.2),
+	shinyjs (>= 0.9),
+	tidyr (>= 0.6.0),
+	lubridate (>= 1.6.0),
+	ggplot2 (>= 2.2.1),
+	ade4,
+	stringr (>= 1.2.0),
+	UScensus2010 (>= 0.11)
+RoxygenNote: 6.0.1
