@@ -10,18 +10,18 @@ By using `Raking Algorithm`, we can adjust the weights for each respondent in th
 ## Main Analysis Steps
 
 - Developed `Rshiny tools` for:
-  * Preprocessing survey data
+  * Preprocess survey data
   * Get US Census 2010 data
 
-- Applying `Raking Algorithm`:
-  Iteratively estimating weights across target variables in turn until weights converge
+- Apply `Raking Algorithm`:
+  Iteratively estimate weights across target variables in turn until weights converge
 
-- Sensitivity Analysis to evaluate raking results for biased sampling schemas against simple random sampling
+- Sensitivity Analysis to evaluate raking results for biased sampling schemas against simple random sampling schemas
   * From the survey data, take 1000 samples for each sampling schemas
     1. Simple Ramdom Sampling
     2. Biased Sampling
 
-  * Using US Census 2010 totals to adjust weights for the 1000 biased samples
+  * Use US Census 2010 totals to adjust weights for the 1000 biased samples
     1. weights adjusted by age, gender and race
 
   * Get point estimate for target variables(for instance: pct of each education levels) for the 2000 samples
