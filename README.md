@@ -9,7 +9,7 @@ By using `Raking Algorithm`, we can adjust the weights for each respondent in th
 
 ## Main Analysis Steps
 
-- Developed `Rshiny tools` for:
+- Develop `Rshiny App` for:
   * Preprocess survey data
   * Get US Census 2010 data
 
