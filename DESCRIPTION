@@ -17,5 +17,6 @@ Imports:
 	ggplot2 (>= 2.2.1),
 	ade4,
 	stringr (>= 1.2.0),
-	UScensus2010 (>= 0.11)
+	UScensus2010 (>= 0.11),
+	magrittr
 RoxygenNote: 6.0.1

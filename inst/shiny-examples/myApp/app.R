@@ -50,7 +50,7 @@ registerInputHandler("shinyjsexamples.chooser", function(data, ...) {
 
 # shiny ui
 ui = fluidPage(
-  useShinyjs(),
+  shinyjs::useShinyjs(),
   h4("Raking Weight Application"),
   br(),
   br(),
